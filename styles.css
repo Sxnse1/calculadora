@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  #calc{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items:center;
+    height: 650px;
+    width: 450px;
+    background-color: #2B364A;
+    border-radius: 35px;
+  }
+
+#pantalla{
+  width: 350px;
+  height: 150px;
+  background: #171430;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.borrartodo{
+  height: 70px;
+  width: 100px;
+  background-color:#a5c8ca;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: solid 1vh #88bcbf;
+}
+
+.botones1{
+margin: 7px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 350px;
+}
+
+.botones{
+  height: 70px;
+  width: 70px;
+  background-color:#a5c8ca;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: solid 1vh #88bcbf;
+  
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.botones:hover{
+  cursor: pointer;
+}
+
+.borrartodo:hover{
+  cursor: pointer;
+}
+
+.presionado{
+  border: none;
+}
